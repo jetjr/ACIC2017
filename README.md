@@ -1,5 +1,5 @@
-#Butterfly Biodiversity Project
-##ACIC 2017
+# Butterfly Biodiversity Project
+## ACIC 2017
 
 James Thornton (jamesthornton@email.arizona.edu)
 

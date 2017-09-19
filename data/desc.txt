@@ -1,0 +1,1 @@
+Directory contains raw data as obtained from iNaturalist API

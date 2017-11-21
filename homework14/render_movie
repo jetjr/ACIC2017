@@ -1,0 +1,36 @@
+#!/bin/bash
+
+#Calculate total frames to render movie at 10 frames per second for 30 seconds
+frames=$1
+frames=$1*10
+
+pov=$2
+out=$3
+
+#Init file counter and clock size
+counter=0
+clock=0
+
+#MAKE CUBES
+while true; do
+  if [[ "$counter" -le "$frames" ]]; then
+    if [[ "$clock" -le "9" ]]; then
+      povray +I"$pov" +Oframe$(printf %03d "$counter").png +K."$clock"
+      counter=$((counter+1))
+      clock=$((clock+1))
+      echo "$counter"
+    else
+      clock=0
+      povray +I"$pov" +Oframe$(printf %03d "$counter").png +K."$clock"
+      counter=$((counter+1))
+      clock=$((clock+1))
+    fi
+  else
+    echo "Frames limit reached"
+    break     
+  fi
+done
+
+#MAKE CUBES SPIN
+ffmpeg -r 10 -i frame%03d.png -r ntsc $out
+

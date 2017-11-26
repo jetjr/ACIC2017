@@ -1,0 +1,903 @@
+cube.mov: frame300.png frame299.png frame298.png frame297.png frame296.png frame295.png frame294.png frame293.png frame292.png frame291.png frame290.png frame289.png frame288.png frame287.png frame286.png frame285.png frame284.png frame283.png frame282.png frame281.png frame280.png frame279.png frame278.png frame277.png frame276.png frame275.png frame274.png frame273.png frame272.png frame271.png frame270.png frame269.png frame268.png frame267.png frame266.png frame265.png frame264.png frame263.png frame262.png frame261.png frame260.png frame259.png frame258.png frame257.png frame256.png frame255.png frame254.png frame253.png frame252.png frame251.png frame250.png frame249.png frame248.png frame247.png frame246.png frame245.png frame244.png frame243.png frame242.png frame241.png frame240.png frame239.png frame238.png frame237.png frame236.png frame235.png frame234.png frame233.png frame232.png frame231.png frame230.png frame229.png frame228.png frame227.png frame226.png frame225.png frame224.png frame223.png frame222.png frame221.png frame220.png frame219.png frame218.png frame217.png frame216.png frame215.png frame214.png frame213.png frame212.png frame211.png frame210.png frame209.png frame208.png frame207.png frame206.png frame205.png frame204.png frame203.png frame202.png frame201.png frame200.png frame199.png frame198.png frame197.png frame196.png frame195.png frame194.png frame193.png frame192.png frame191.png frame190.png frame189.png frame188.png frame187.png frame186.png frame185.png frame184.png frame183.png frame182.png frame181.png frame180.png frame179.png frame178.png frame177.png frame176.png frame175.png frame174.png frame173.png frame172.png frame171.png frame170.png frame169.png frame168.png frame167.png frame166.png frame165.png frame164.png frame163.png frame162.png frame161.png frame160.png frame159.png frame158.png frame157.png frame156.png frame155.png frame154.png frame153.png frame152.png frame151.png frame150.png frame149.png frame148.png frame147.png frame146.png frame145.png frame144.png frame143.png frame142.png frame141.png frame140.png frame139.png frame138.png frame137.png frame136.png frame135.png frame134.png frame133.png frame132.png frame131.png frame130.png frame129.png frame128.png frame127.png frame126.png frame125.png frame124.png frame123.png frame122.png frame121.png frame120.png frame119.png frame118.png frame117.png frame116.png frame115.png frame114.png frame113.png frame112.png frame111.png frame110.png frame109.png frame108.png frame107.png frame106.png frame105.png frame104.png frame103.png frame102.png frame101.png frame100.png frame099.png frame098.png frame097.png frame096.png frame095.png frame094.png frame093.png frame092.png frame091.png frame090.png frame089.png frame088.png frame087.png frame086.png frame085.png frame084.png frame083.png frame082.png frame081.png frame080.png frame079.png frame078.png frame077.png frame076.png frame075.png frame074.png frame073.png frame072.png frame071.png frame070.png frame069.png frame068.png frame067.png frame066.png frame065.png frame064.png frame063.png frame062.png frame061.png frame060.png frame059.png frame058.png frame057.png frame056.png frame055.png frame054.png frame053.png frame052.png frame051.png frame050.png frame049.png frame048.png frame047.png frame046.png frame045.png frame044.png frame043.png frame042.png frame041.png frame040.png frame039.png frame038.png frame037.png frame036.png frame035.png frame034.png frame033.png frame032.png frame031.png frame030.png frame029.png frame028.png frame027.png frame026.png frame025.png frame024.png frame023.png frame022.png frame021.png frame020.png frame019.png frame018.png frame017.png frame016.png frame015.png frame014.png frame013.png frame012.png frame011.png frame010.png frame009.png frame008.png frame007.png frame006.png frame005.png frame004.png frame003.png frame002.png frame001.png
+	ffmpeg -r 10 -i frame%03d.png -r ntsc cube.mov 
+
+frame300.png: rubiks.pov
+	povray +Irubiks.pov +Oframe300.png +K.0 
+
+frame299.png: rubiks.pov
+	povray +Irubiks.pov +Oframe299.png +K.1 
+
+frame298.png: rubiks.pov
+	povray +Irubiks.pov +Oframe298.png +K.2 
+
+frame297.png: rubiks.pov
+	povray +Irubiks.pov +Oframe297.png +K.3 
+
+frame296.png: rubiks.pov
+	povray +Irubiks.pov +Oframe296.png +K.4 
+
+frame295.png: rubiks.pov
+	povray +Irubiks.pov +Oframe295.png +K.5 
+
+frame294.png: rubiks.pov
+	povray +Irubiks.pov +Oframe294.png +K.6 
+
+frame293.png: rubiks.pov
+	povray +Irubiks.pov +Oframe293.png +K.7 
+
+frame292.png: rubiks.pov
+	povray +Irubiks.pov +Oframe292.png +K.8 
+
+frame291.png: rubiks.pov
+	povray +Irubiks.pov +Oframe291.png +K.9 
+
+frame290.png: rubiks.pov
+	povray +Irubiks.pov +Oframe290.png +K.0 
+
+frame289.png: rubiks.pov
+	povray +Irubiks.pov +Oframe289.png +K.1 
+
+frame288.png: rubiks.pov
+	povray +Irubiks.pov +Oframe288.png +K.2 
+
+frame287.png: rubiks.pov
+	povray +Irubiks.pov +Oframe287.png +K.3 
+
+frame286.png: rubiks.pov
+	povray +Irubiks.pov +Oframe286.png +K.4 
+
+frame285.png: rubiks.pov
+	povray +Irubiks.pov +Oframe285.png +K.5 
+
+frame284.png: rubiks.pov
+	povray +Irubiks.pov +Oframe284.png +K.6 
+
+frame283.png: rubiks.pov
+	povray +Irubiks.pov +Oframe283.png +K.7 
+
+frame282.png: rubiks.pov
+	povray +Irubiks.pov +Oframe282.png +K.8 
+
+frame281.png: rubiks.pov
+	povray +Irubiks.pov +Oframe281.png +K.9 
+
+frame280.png: rubiks.pov
+	povray +Irubiks.pov +Oframe280.png +K.0 
+
+frame279.png: rubiks.pov
+	povray +Irubiks.pov +Oframe279.png +K.1 
+
+frame278.png: rubiks.pov
+	povray +Irubiks.pov +Oframe278.png +K.2 
+
+frame277.png: rubiks.pov
+	povray +Irubiks.pov +Oframe277.png +K.3 
+
+frame276.png: rubiks.pov
+	povray +Irubiks.pov +Oframe276.png +K.4 
+
+frame275.png: rubiks.pov
+	povray +Irubiks.pov +Oframe275.png +K.5 
+
+frame274.png: rubiks.pov
+	povray +Irubiks.pov +Oframe274.png +K.6 
+
+frame273.png: rubiks.pov
+	povray +Irubiks.pov +Oframe273.png +K.7 
+
+frame272.png: rubiks.pov
+	povray +Irubiks.pov +Oframe272.png +K.8 
+
+frame271.png: rubiks.pov
+	povray +Irubiks.pov +Oframe271.png +K.9 
+
+frame270.png: rubiks.pov
+	povray +Irubiks.pov +Oframe270.png +K.0 
+
+frame269.png: rubiks.pov
+	povray +Irubiks.pov +Oframe269.png +K.1 
+
+frame268.png: rubiks.pov
+	povray +Irubiks.pov +Oframe268.png +K.2 
+
+frame267.png: rubiks.pov
+	povray +Irubiks.pov +Oframe267.png +K.3 
+
+frame266.png: rubiks.pov
+	povray +Irubiks.pov +Oframe266.png +K.4 
+
+frame265.png: rubiks.pov
+	povray +Irubiks.pov +Oframe265.png +K.5 
+
+frame264.png: rubiks.pov
+	povray +Irubiks.pov +Oframe264.png +K.6 
+
+frame263.png: rubiks.pov
+	povray +Irubiks.pov +Oframe263.png +K.7 
+
+frame262.png: rubiks.pov
+	povray +Irubiks.pov +Oframe262.png +K.8 
+
+frame261.png: rubiks.pov
+	povray +Irubiks.pov +Oframe261.png +K.9 
+
+frame260.png: rubiks.pov
+	povray +Irubiks.pov +Oframe260.png +K.0 
+
+frame259.png: rubiks.pov
+	povray +Irubiks.pov +Oframe259.png +K.1 
+
+frame258.png: rubiks.pov
+	povray +Irubiks.pov +Oframe258.png +K.2 
+
+frame257.png: rubiks.pov
+	povray +Irubiks.pov +Oframe257.png +K.3 
+
+frame256.png: rubiks.pov
+	povray +Irubiks.pov +Oframe256.png +K.4 
+
+frame255.png: rubiks.pov
+	povray +Irubiks.pov +Oframe255.png +K.5 
+
+frame254.png: rubiks.pov
+	povray +Irubiks.pov +Oframe254.png +K.6 
+
+frame253.png: rubiks.pov
+	povray +Irubiks.pov +Oframe253.png +K.7 
+
+frame252.png: rubiks.pov
+	povray +Irubiks.pov +Oframe252.png +K.8 
+
+frame251.png: rubiks.pov
+	povray +Irubiks.pov +Oframe251.png +K.9 
+
+frame250.png: rubiks.pov
+	povray +Irubiks.pov +Oframe250.png +K.0 
+
+frame249.png: rubiks.pov
+	povray +Irubiks.pov +Oframe249.png +K.1 
+
+frame248.png: rubiks.pov
+	povray +Irubiks.pov +Oframe248.png +K.2 
+
+frame247.png: rubiks.pov
+	povray +Irubiks.pov +Oframe247.png +K.3 
+
+frame246.png: rubiks.pov
+	povray +Irubiks.pov +Oframe246.png +K.4 
+
+frame245.png: rubiks.pov
+	povray +Irubiks.pov +Oframe245.png +K.5 
+
+frame244.png: rubiks.pov
+	povray +Irubiks.pov +Oframe244.png +K.6 
+
+frame243.png: rubiks.pov
+	povray +Irubiks.pov +Oframe243.png +K.7 
+
+frame242.png: rubiks.pov
+	povray +Irubiks.pov +Oframe242.png +K.8 
+
+frame241.png: rubiks.pov
+	povray +Irubiks.pov +Oframe241.png +K.9 
+
+frame240.png: rubiks.pov
+	povray +Irubiks.pov +Oframe240.png +K.0 
+
+frame239.png: rubiks.pov
+	povray +Irubiks.pov +Oframe239.png +K.1 
+
+frame238.png: rubiks.pov
+	povray +Irubiks.pov +Oframe238.png +K.2 
+
+frame237.png: rubiks.pov
+	povray +Irubiks.pov +Oframe237.png +K.3 
+
+frame236.png: rubiks.pov
+	povray +Irubiks.pov +Oframe236.png +K.4 
+
+frame235.png: rubiks.pov
+	povray +Irubiks.pov +Oframe235.png +K.5 
+
+frame234.png: rubiks.pov
+	povray +Irubiks.pov +Oframe234.png +K.6 
+
+frame233.png: rubiks.pov
+	povray +Irubiks.pov +Oframe233.png +K.7 
+
+frame232.png: rubiks.pov
+	povray +Irubiks.pov +Oframe232.png +K.8 
+
+frame231.png: rubiks.pov
+	povray +Irubiks.pov +Oframe231.png +K.9 
+
+frame230.png: rubiks.pov
+	povray +Irubiks.pov +Oframe230.png +K.0 
+
+frame229.png: rubiks.pov
+	povray +Irubiks.pov +Oframe229.png +K.1 
+
+frame228.png: rubiks.pov
+	povray +Irubiks.pov +Oframe228.png +K.2 
+
+frame227.png: rubiks.pov
+	povray +Irubiks.pov +Oframe227.png +K.3 
+
+frame226.png: rubiks.pov
+	povray +Irubiks.pov +Oframe226.png +K.4 
+
+frame225.png: rubiks.pov
+	povray +Irubiks.pov +Oframe225.png +K.5 
+
+frame224.png: rubiks.pov
+	povray +Irubiks.pov +Oframe224.png +K.6 
+
+frame223.png: rubiks.pov
+	povray +Irubiks.pov +Oframe223.png +K.7 
+
+frame222.png: rubiks.pov
+	povray +Irubiks.pov +Oframe222.png +K.8 
+
+frame221.png: rubiks.pov
+	povray +Irubiks.pov +Oframe221.png +K.9 
+
+frame220.png: rubiks.pov
+	povray +Irubiks.pov +Oframe220.png +K.0 
+
+frame219.png: rubiks.pov
+	povray +Irubiks.pov +Oframe219.png +K.1 
+
+frame218.png: rubiks.pov
+	povray +Irubiks.pov +Oframe218.png +K.2 
+
+frame217.png: rubiks.pov
+	povray +Irubiks.pov +Oframe217.png +K.3 
+
+frame216.png: rubiks.pov
+	povray +Irubiks.pov +Oframe216.png +K.4 
+
+frame215.png: rubiks.pov
+	povray +Irubiks.pov +Oframe215.png +K.5 
+
+frame214.png: rubiks.pov
+	povray +Irubiks.pov +Oframe214.png +K.6 
+
+frame213.png: rubiks.pov
+	povray +Irubiks.pov +Oframe213.png +K.7 
+
+frame212.png: rubiks.pov
+	povray +Irubiks.pov +Oframe212.png +K.8 
+
+frame211.png: rubiks.pov
+	povray +Irubiks.pov +Oframe211.png +K.9 
+
+frame210.png: rubiks.pov
+	povray +Irubiks.pov +Oframe210.png +K.0 
+
+frame209.png: rubiks.pov
+	povray +Irubiks.pov +Oframe209.png +K.1 
+
+frame208.png: rubiks.pov
+	povray +Irubiks.pov +Oframe208.png +K.2 
+
+frame207.png: rubiks.pov
+	povray +Irubiks.pov +Oframe207.png +K.3 
+
+frame206.png: rubiks.pov
+	povray +Irubiks.pov +Oframe206.png +K.4 
+
+frame205.png: rubiks.pov
+	povray +Irubiks.pov +Oframe205.png +K.5 
+
+frame204.png: rubiks.pov
+	povray +Irubiks.pov +Oframe204.png +K.6 
+
+frame203.png: rubiks.pov
+	povray +Irubiks.pov +Oframe203.png +K.7 
+
+frame202.png: rubiks.pov
+	povray +Irubiks.pov +Oframe202.png +K.8 
+
+frame201.png: rubiks.pov
+	povray +Irubiks.pov +Oframe201.png +K.9 
+
+frame200.png: rubiks.pov
+	povray +Irubiks.pov +Oframe200.png +K.0 
+
+frame199.png: rubiks.pov
+	povray +Irubiks.pov +Oframe199.png +K.1 
+
+frame198.png: rubiks.pov
+	povray +Irubiks.pov +Oframe198.png +K.2 
+
+frame197.png: rubiks.pov
+	povray +Irubiks.pov +Oframe197.png +K.3 
+
+frame196.png: rubiks.pov
+	povray +Irubiks.pov +Oframe196.png +K.4 
+
+frame195.png: rubiks.pov
+	povray +Irubiks.pov +Oframe195.png +K.5 
+
+frame194.png: rubiks.pov
+	povray +Irubiks.pov +Oframe194.png +K.6 
+
+frame193.png: rubiks.pov
+	povray +Irubiks.pov +Oframe193.png +K.7 
+
+frame192.png: rubiks.pov
+	povray +Irubiks.pov +Oframe192.png +K.8 
+
+frame191.png: rubiks.pov
+	povray +Irubiks.pov +Oframe191.png +K.9 
+
+frame190.png: rubiks.pov
+	povray +Irubiks.pov +Oframe190.png +K.0 
+
+frame189.png: rubiks.pov
+	povray +Irubiks.pov +Oframe189.png +K.1 
+
+frame188.png: rubiks.pov
+	povray +Irubiks.pov +Oframe188.png +K.2 
+
+frame187.png: rubiks.pov
+	povray +Irubiks.pov +Oframe187.png +K.3 
+
+frame186.png: rubiks.pov
+	povray +Irubiks.pov +Oframe186.png +K.4 
+
+frame185.png: rubiks.pov
+	povray +Irubiks.pov +Oframe185.png +K.5 
+
+frame184.png: rubiks.pov
+	povray +Irubiks.pov +Oframe184.png +K.6 
+
+frame183.png: rubiks.pov
+	povray +Irubiks.pov +Oframe183.png +K.7 
+
+frame182.png: rubiks.pov
+	povray +Irubiks.pov +Oframe182.png +K.8 
+
+frame181.png: rubiks.pov
+	povray +Irubiks.pov +Oframe181.png +K.9 
+
+frame180.png: rubiks.pov
+	povray +Irubiks.pov +Oframe180.png +K.0 
+
+frame179.png: rubiks.pov
+	povray +Irubiks.pov +Oframe179.png +K.1 
+
+frame178.png: rubiks.pov
+	povray +Irubiks.pov +Oframe178.png +K.2 
+
+frame177.png: rubiks.pov
+	povray +Irubiks.pov +Oframe177.png +K.3 
+
+frame176.png: rubiks.pov
+	povray +Irubiks.pov +Oframe176.png +K.4 
+
+frame175.png: rubiks.pov
+	povray +Irubiks.pov +Oframe175.png +K.5 
+
+frame174.png: rubiks.pov
+	povray +Irubiks.pov +Oframe174.png +K.6 
+
+frame173.png: rubiks.pov
+	povray +Irubiks.pov +Oframe173.png +K.7 
+
+frame172.png: rubiks.pov
+	povray +Irubiks.pov +Oframe172.png +K.8 
+
+frame171.png: rubiks.pov
+	povray +Irubiks.pov +Oframe171.png +K.9 
+
+frame170.png: rubiks.pov
+	povray +Irubiks.pov +Oframe170.png +K.0 
+
+frame169.png: rubiks.pov
+	povray +Irubiks.pov +Oframe169.png +K.1 
+
+frame168.png: rubiks.pov
+	povray +Irubiks.pov +Oframe168.png +K.2 
+
+frame167.png: rubiks.pov
+	povray +Irubiks.pov +Oframe167.png +K.3 
+
+frame166.png: rubiks.pov
+	povray +Irubiks.pov +Oframe166.png +K.4 
+
+frame165.png: rubiks.pov
+	povray +Irubiks.pov +Oframe165.png +K.5 
+
+frame164.png: rubiks.pov
+	povray +Irubiks.pov +Oframe164.png +K.6 
+
+frame163.png: rubiks.pov
+	povray +Irubiks.pov +Oframe163.png +K.7 
+
+frame162.png: rubiks.pov
+	povray +Irubiks.pov +Oframe162.png +K.8 
+
+frame161.png: rubiks.pov
+	povray +Irubiks.pov +Oframe161.png +K.9 
+
+frame160.png: rubiks.pov
+	povray +Irubiks.pov +Oframe160.png +K.0 
+
+frame159.png: rubiks.pov
+	povray +Irubiks.pov +Oframe159.png +K.1 
+
+frame158.png: rubiks.pov
+	povray +Irubiks.pov +Oframe158.png +K.2 
+
+frame157.png: rubiks.pov
+	povray +Irubiks.pov +Oframe157.png +K.3 
+
+frame156.png: rubiks.pov
+	povray +Irubiks.pov +Oframe156.png +K.4 
+
+frame155.png: rubiks.pov
+	povray +Irubiks.pov +Oframe155.png +K.5 
+
+frame154.png: rubiks.pov
+	povray +Irubiks.pov +Oframe154.png +K.6 
+
+frame153.png: rubiks.pov
+	povray +Irubiks.pov +Oframe153.png +K.7 
+
+frame152.png: rubiks.pov
+	povray +Irubiks.pov +Oframe152.png +K.8 
+
+frame151.png: rubiks.pov
+	povray +Irubiks.pov +Oframe151.png +K.9 
+
+frame150.png: rubiks.pov
+	povray +Irubiks.pov +Oframe150.png +K.0 
+
+frame149.png: rubiks.pov
+	povray +Irubiks.pov +Oframe149.png +K.1 
+
+frame148.png: rubiks.pov
+	povray +Irubiks.pov +Oframe148.png +K.2 
+
+frame147.png: rubiks.pov
+	povray +Irubiks.pov +Oframe147.png +K.3 
+
+frame146.png: rubiks.pov
+	povray +Irubiks.pov +Oframe146.png +K.4 
+
+frame145.png: rubiks.pov
+	povray +Irubiks.pov +Oframe145.png +K.5 
+
+frame144.png: rubiks.pov
+	povray +Irubiks.pov +Oframe144.png +K.6 
+
+frame143.png: rubiks.pov
+	povray +Irubiks.pov +Oframe143.png +K.7 
+
+frame142.png: rubiks.pov
+	povray +Irubiks.pov +Oframe142.png +K.8 
+
+frame141.png: rubiks.pov
+	povray +Irubiks.pov +Oframe141.png +K.9 
+
+frame140.png: rubiks.pov
+	povray +Irubiks.pov +Oframe140.png +K.0 
+
+frame139.png: rubiks.pov
+	povray +Irubiks.pov +Oframe139.png +K.1 
+
+frame138.png: rubiks.pov
+	povray +Irubiks.pov +Oframe138.png +K.2 
+
+frame137.png: rubiks.pov
+	povray +Irubiks.pov +Oframe137.png +K.3 
+
+frame136.png: rubiks.pov
+	povray +Irubiks.pov +Oframe136.png +K.4 
+
+frame135.png: rubiks.pov
+	povray +Irubiks.pov +Oframe135.png +K.5 
+
+frame134.png: rubiks.pov
+	povray +Irubiks.pov +Oframe134.png +K.6 
+
+frame133.png: rubiks.pov
+	povray +Irubiks.pov +Oframe133.png +K.7 
+
+frame132.png: rubiks.pov
+	povray +Irubiks.pov +Oframe132.png +K.8 
+
+frame131.png: rubiks.pov
+	povray +Irubiks.pov +Oframe131.png +K.9 
+
+frame130.png: rubiks.pov
+	povray +Irubiks.pov +Oframe130.png +K.0 
+
+frame129.png: rubiks.pov
+	povray +Irubiks.pov +Oframe129.png +K.1 
+
+frame128.png: rubiks.pov
+	povray +Irubiks.pov +Oframe128.png +K.2 
+
+frame127.png: rubiks.pov
+	povray +Irubiks.pov +Oframe127.png +K.3 
+
+frame126.png: rubiks.pov
+	povray +Irubiks.pov +Oframe126.png +K.4 
+
+frame125.png: rubiks.pov
+	povray +Irubiks.pov +Oframe125.png +K.5 
+
+frame124.png: rubiks.pov
+	povray +Irubiks.pov +Oframe124.png +K.6 
+
+frame123.png: rubiks.pov
+	povray +Irubiks.pov +Oframe123.png +K.7 
+
+frame122.png: rubiks.pov
+	povray +Irubiks.pov +Oframe122.png +K.8 
+
+frame121.png: rubiks.pov
+	povray +Irubiks.pov +Oframe121.png +K.9 
+
+frame120.png: rubiks.pov
+	povray +Irubiks.pov +Oframe120.png +K.0 
+
+frame119.png: rubiks.pov
+	povray +Irubiks.pov +Oframe119.png +K.1 
+
+frame118.png: rubiks.pov
+	povray +Irubiks.pov +Oframe118.png +K.2 
+
+frame117.png: rubiks.pov
+	povray +Irubiks.pov +Oframe117.png +K.3 
+
+frame116.png: rubiks.pov
+	povray +Irubiks.pov +Oframe116.png +K.4 
+
+frame115.png: rubiks.pov
+	povray +Irubiks.pov +Oframe115.png +K.5 
+
+frame114.png: rubiks.pov
+	povray +Irubiks.pov +Oframe114.png +K.6 
+
+frame113.png: rubiks.pov
+	povray +Irubiks.pov +Oframe113.png +K.7 
+
+frame112.png: rubiks.pov
+	povray +Irubiks.pov +Oframe112.png +K.8 
+
+frame111.png: rubiks.pov
+	povray +Irubiks.pov +Oframe111.png +K.9 
+
+frame110.png: rubiks.pov
+	povray +Irubiks.pov +Oframe110.png +K.0 
+
+frame109.png: rubiks.pov
+	povray +Irubiks.pov +Oframe109.png +K.1 
+
+frame108.png: rubiks.pov
+	povray +Irubiks.pov +Oframe108.png +K.2 
+
+frame107.png: rubiks.pov
+	povray +Irubiks.pov +Oframe107.png +K.3 
+
+frame106.png: rubiks.pov
+	povray +Irubiks.pov +Oframe106.png +K.4 
+
+frame105.png: rubiks.pov
+	povray +Irubiks.pov +Oframe105.png +K.5 
+
+frame104.png: rubiks.pov
+	povray +Irubiks.pov +Oframe104.png +K.6 
+
+frame103.png: rubiks.pov
+	povray +Irubiks.pov +Oframe103.png +K.7 
+
+frame102.png: rubiks.pov
+	povray +Irubiks.pov +Oframe102.png +K.8 
+
+frame101.png: rubiks.pov
+	povray +Irubiks.pov +Oframe101.png +K.9 
+
+frame100.png: rubiks.pov
+	povray +Irubiks.pov +Oframe100.png +K.0 
+
+frame099.png: rubiks.pov
+	povray +Irubiks.pov +Oframe099.png +K.1 
+
+frame098.png: rubiks.pov
+	povray +Irubiks.pov +Oframe098.png +K.2 
+
+frame097.png: rubiks.pov
+	povray +Irubiks.pov +Oframe097.png +K.3 
+
+frame096.png: rubiks.pov
+	povray +Irubiks.pov +Oframe096.png +K.4 
+
+frame095.png: rubiks.pov
+	povray +Irubiks.pov +Oframe095.png +K.5 
+
+frame094.png: rubiks.pov
+	povray +Irubiks.pov +Oframe094.png +K.6 
+
+frame093.png: rubiks.pov
+	povray +Irubiks.pov +Oframe093.png +K.7 
+
+frame092.png: rubiks.pov
+	povray +Irubiks.pov +Oframe092.png +K.8 
+
+frame091.png: rubiks.pov
+	povray +Irubiks.pov +Oframe091.png +K.9 
+
+frame090.png: rubiks.pov
+	povray +Irubiks.pov +Oframe090.png +K.0 
+
+frame089.png: rubiks.pov
+	povray +Irubiks.pov +Oframe089.png +K.1 
+
+frame088.png: rubiks.pov
+	povray +Irubiks.pov +Oframe088.png +K.2 
+
+frame087.png: rubiks.pov
+	povray +Irubiks.pov +Oframe087.png +K.3 
+
+frame086.png: rubiks.pov
+	povray +Irubiks.pov +Oframe086.png +K.4 
+
+frame085.png: rubiks.pov
+	povray +Irubiks.pov +Oframe085.png +K.5 
+
+frame084.png: rubiks.pov
+	povray +Irubiks.pov +Oframe084.png +K.6 
+
+frame083.png: rubiks.pov
+	povray +Irubiks.pov +Oframe083.png +K.7 
+
+frame082.png: rubiks.pov
+	povray +Irubiks.pov +Oframe082.png +K.8 
+
+frame081.png: rubiks.pov
+	povray +Irubiks.pov +Oframe081.png +K.9 
+
+frame080.png: rubiks.pov
+	povray +Irubiks.pov +Oframe080.png +K.0 
+
+frame079.png: rubiks.pov
+	povray +Irubiks.pov +Oframe079.png +K.1 
+
+frame078.png: rubiks.pov
+	povray +Irubiks.pov +Oframe078.png +K.2 
+
+frame077.png: rubiks.pov
+	povray +Irubiks.pov +Oframe077.png +K.3 
+
+frame076.png: rubiks.pov
+	povray +Irubiks.pov +Oframe076.png +K.4 
+
+frame075.png: rubiks.pov
+	povray +Irubiks.pov +Oframe075.png +K.5 
+
+frame074.png: rubiks.pov
+	povray +Irubiks.pov +Oframe074.png +K.6 
+
+frame073.png: rubiks.pov
+	povray +Irubiks.pov +Oframe073.png +K.7 
+
+frame072.png: rubiks.pov
+	povray +Irubiks.pov +Oframe072.png +K.8 
+
+frame071.png: rubiks.pov
+	povray +Irubiks.pov +Oframe071.png +K.9 
+
+frame070.png: rubiks.pov
+	povray +Irubiks.pov +Oframe070.png +K.0 
+
+frame069.png: rubiks.pov
+	povray +Irubiks.pov +Oframe069.png +K.1 
+
+frame068.png: rubiks.pov
+	povray +Irubiks.pov +Oframe068.png +K.2 
+
+frame067.png: rubiks.pov
+	povray +Irubiks.pov +Oframe067.png +K.3 
+
+frame066.png: rubiks.pov
+	povray +Irubiks.pov +Oframe066.png +K.4 
+
+frame065.png: rubiks.pov
+	povray +Irubiks.pov +Oframe065.png +K.5 
+
+frame064.png: rubiks.pov
+	povray +Irubiks.pov +Oframe064.png +K.6 
+
+frame063.png: rubiks.pov
+	povray +Irubiks.pov +Oframe063.png +K.7 
+
+frame062.png: rubiks.pov
+	povray +Irubiks.pov +Oframe062.png +K.8 
+
+frame061.png: rubiks.pov
+	povray +Irubiks.pov +Oframe061.png +K.9 
+
+frame060.png: rubiks.pov
+	povray +Irubiks.pov +Oframe060.png +K.0 
+
+frame059.png: rubiks.pov
+	povray +Irubiks.pov +Oframe059.png +K.1 
+
+frame058.png: rubiks.pov
+	povray +Irubiks.pov +Oframe058.png +K.2 
+
+frame057.png: rubiks.pov
+	povray +Irubiks.pov +Oframe057.png +K.3 
+
+frame056.png: rubiks.pov
+	povray +Irubiks.pov +Oframe056.png +K.4 
+
+frame055.png: rubiks.pov
+	povray +Irubiks.pov +Oframe055.png +K.5 
+
+frame054.png: rubiks.pov
+	povray +Irubiks.pov +Oframe054.png +K.6 
+
+frame053.png: rubiks.pov
+	povray +Irubiks.pov +Oframe053.png +K.7 
+
+frame052.png: rubiks.pov
+	povray +Irubiks.pov +Oframe052.png +K.8 
+
+frame051.png: rubiks.pov
+	povray +Irubiks.pov +Oframe051.png +K.9 
+
+frame050.png: rubiks.pov
+	povray +Irubiks.pov +Oframe050.png +K.0 
+
+frame049.png: rubiks.pov
+	povray +Irubiks.pov +Oframe049.png +K.1 
+
+frame048.png: rubiks.pov
+	povray +Irubiks.pov +Oframe048.png +K.2 
+
+frame047.png: rubiks.pov
+	povray +Irubiks.pov +Oframe047.png +K.3 
+
+frame046.png: rubiks.pov
+	povray +Irubiks.pov +Oframe046.png +K.4 
+
+frame045.png: rubiks.pov
+	povray +Irubiks.pov +Oframe045.png +K.5 
+
+frame044.png: rubiks.pov
+	povray +Irubiks.pov +Oframe044.png +K.6 
+
+frame043.png: rubiks.pov
+	povray +Irubiks.pov +Oframe043.png +K.7 
+
+frame042.png: rubiks.pov
+	povray +Irubiks.pov +Oframe042.png +K.8 
+
+frame041.png: rubiks.pov
+	povray +Irubiks.pov +Oframe041.png +K.9 
+
+frame040.png: rubiks.pov
+	povray +Irubiks.pov +Oframe040.png +K.0 
+
+frame039.png: rubiks.pov
+	povray +Irubiks.pov +Oframe039.png +K.1 
+
+frame038.png: rubiks.pov
+	povray +Irubiks.pov +Oframe038.png +K.2 
+
+frame037.png: rubiks.pov
+	povray +Irubiks.pov +Oframe037.png +K.3 
+
+frame036.png: rubiks.pov
+	povray +Irubiks.pov +Oframe036.png +K.4 
+
+frame035.png: rubiks.pov
+	povray +Irubiks.pov +Oframe035.png +K.5 
+
+frame034.png: rubiks.pov
+	povray +Irubiks.pov +Oframe034.png +K.6 
+
+frame033.png: rubiks.pov
+	povray +Irubiks.pov +Oframe033.png +K.7 
+
+frame032.png: rubiks.pov
+	povray +Irubiks.pov +Oframe032.png +K.8 
+
+frame031.png: rubiks.pov
+	povray +Irubiks.pov +Oframe031.png +K.9 
+
+frame030.png: rubiks.pov
+	povray +Irubiks.pov +Oframe030.png +K.0 
+
+frame029.png: rubiks.pov
+	povray +Irubiks.pov +Oframe029.png +K.1 
+
+frame028.png: rubiks.pov
+	povray +Irubiks.pov +Oframe028.png +K.2 
+
+frame027.png: rubiks.pov
+	povray +Irubiks.pov +Oframe027.png +K.3 
+
+frame026.png: rubiks.pov
+	povray +Irubiks.pov +Oframe026.png +K.4 
+
+frame025.png: rubiks.pov
+	povray +Irubiks.pov +Oframe025.png +K.5 
+
+frame024.png: rubiks.pov
+	povray +Irubiks.pov +Oframe024.png +K.6 
+
+frame023.png: rubiks.pov
+	povray +Irubiks.pov +Oframe023.png +K.7 
+
+frame022.png: rubiks.pov
+	povray +Irubiks.pov +Oframe022.png +K.8 
+
+frame021.png: rubiks.pov
+	povray +Irubiks.pov +Oframe021.png +K.9 
+
+frame020.png: rubiks.pov
+	povray +Irubiks.pov +Oframe020.png +K.0 
+
+frame019.png: rubiks.pov
+	povray +Irubiks.pov +Oframe019.png +K.1 
+
+frame018.png: rubiks.pov
+	povray +Irubiks.pov +Oframe018.png +K.2 
+
+frame017.png: rubiks.pov
+	povray +Irubiks.pov +Oframe017.png +K.3 
+
+frame016.png: rubiks.pov
+	povray +Irubiks.pov +Oframe016.png +K.4 
+
+frame015.png: rubiks.pov
+	povray +Irubiks.pov +Oframe015.png +K.5 
+
+frame014.png: rubiks.pov
+	povray +Irubiks.pov +Oframe014.png +K.6 
+
+frame013.png: rubiks.pov
+	povray +Irubiks.pov +Oframe013.png +K.7 
+
+frame012.png: rubiks.pov
+	povray +Irubiks.pov +Oframe012.png +K.8 
+
+frame011.png: rubiks.pov
+	povray +Irubiks.pov +Oframe011.png +K.9 
+
+frame010.png: rubiks.pov
+	povray +Irubiks.pov +Oframe010.png +K.0 
+
+frame009.png: rubiks.pov
+	povray +Irubiks.pov +Oframe009.png +K.1 
+
+frame008.png: rubiks.pov
+	povray +Irubiks.pov +Oframe008.png +K.2 
+
+frame007.png: rubiks.pov
+	povray +Irubiks.pov +Oframe007.png +K.3 
+
+frame006.png: rubiks.pov
+	povray +Irubiks.pov +Oframe006.png +K.4 
+
+frame005.png: rubiks.pov
+	povray +Irubiks.pov +Oframe005.png +K.5 
+
+frame004.png: rubiks.pov
+	povray +Irubiks.pov +Oframe004.png +K.6 
+
+frame003.png: rubiks.pov
+	povray +Irubiks.pov +Oframe003.png +K.7 
+
+frame002.png: rubiks.pov
+	povray +Irubiks.pov +Oframe002.png +K.8 
+
+frame001.png: rubiks.pov
+	povray +Irubiks.pov +Oframe001.png +K.9 
+

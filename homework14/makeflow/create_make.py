@@ -12,7 +12,8 @@ if len(args) < 3:
 #CREATE MAKEFLOW FILE FOR RUBIKS MOVIE
 
 seconds = int(args[1])
-fps = int(args[2])
+pov = str(args[2])
+out = str(args[3])
 
 frames = seconds * 10
 frames_l = reversed(range(1,frames + 1))

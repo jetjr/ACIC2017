@@ -6,7 +6,7 @@ import itertools
 args = sys.argv
 
 if len(args) < 3:
-    print('Usage:', args[0], 'Seconds', 'FPS')
+    print('Usage:', args[0], 'Seconds', 'POV', 'Out')
     sys.exit(1)
 
 #CREATE MAKEFLOW FILE FOR RUBIKS MOVIE
@@ -33,5 +33,5 @@ iterator = itertools.cycle(clock)
 
 #CREATE ALL FRAMES
 for i in file_names:
-    print("{}:".format(i), "rubiks.pov")
+    print("{}:".format(i), "rubiks.pov", "WRC_RubiksCube.inc")
     print("\tpovray +Irubiks.pov +O{}".format(i), "+K.{}".format(next(iterator)), "\n")
